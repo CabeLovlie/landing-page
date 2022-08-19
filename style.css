@@ -127,3 +127,84 @@ body {
     height: 300px;
     gap: 8px;
 }
+
+.section-three {
+    display: flex;
+    height: 400px;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 64px 300px;
+    gap: 16px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.section-four {
+    display: flex;
+    height: 300px;
+    padding: 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-four .container {
+    display: flex;
+    background-color: #3882f6;
+    height: 150px;
+    width: 1000px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 128px;
+}
+
+.section-four .cta-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.section-four .header, .body {
+    margin: 0;
+    color: #e5e7eb;
+}
+
+.section-four .header {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.section-four .button {
+    margin-right: auto;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9f9f9;
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #e5e7eb;
+}
